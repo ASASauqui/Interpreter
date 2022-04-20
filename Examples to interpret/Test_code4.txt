@@ -1,0 +1,19 @@
+//IF's
+entier a; 
+entier b;
+a = 1;
+montrer('hol');
+alors(a!=0){
+    montrer('Ingrese dos numeros a comparar (a,b): ');
+    lis(a);
+    lis(b);
+    if(a > b){
+        montrer('a es mayor que b');
+    }
+    if(a < b){
+        montrer('b es mayor que a');
+    }
+    if(a == b){
+        montrer('a y b son iguales');
+    }
+}

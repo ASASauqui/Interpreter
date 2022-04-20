@@ -1,0 +1,15 @@
+//Multiplicaciones
+entier i;
+i = 9-5.3+8.9;
+montrer(i);
+pour(i;1;10;1){
+    montrer('Ingrese un digito para su tabla del 10: ');
+    entier x;
+    lis(x);
+    entier j;
+    montrer(' ');
+    pour(j;5;10;2){
+        montrer(x*j);
+    }entier a;
+    montrer(' ');
+}

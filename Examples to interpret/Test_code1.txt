@@ -1,0 +1,5 @@
+entier n;
+n = 5;
+bool m;
+m = n>=10 & n<=20;
+montrer(m);

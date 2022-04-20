@@ -1,0 +1,25 @@
+entier a;
+a = 10-9;
+montrer(a);
+alors(a<10){
+    a = a+1;
+    entier b;
+    b = a-9;
+    montrer(a);
+    montrer(' ');
+    alors(b<10){
+        b = b+1;
+        entier c;
+        c = b-10;
+        montrer(b);
+        montrer(' ');
+        alors(c<10){
+            c = c+1;
+            montrer(c);
+            montrer(' ');
+        }
+        montrer(' ');
+    }
+    montrer(' ');
+}
+montrer(' ');

@@ -1,0 +1,5 @@
+chaine a;
+a = 'holaa';
+montrer(a);
+lis(a);
+montrer(a);

@@ -1,0 +1,27 @@
+
+entier n;
+montrer('Ingrese el numero de la serie de Fibonacci a conseguir: ');
+lis(n);
+entier fib;
+entier fib1;
+entier fib2;
+entier k;
+fib = 0;
+fib1 = 1;
+fib2 = 0;
+k = n;
+alors(n>1){
+    fib = fib1 + fib2;
+    fib2 = fib1;
+    fib1 = fib;
+    n = n-1;
+}
+if(k == 0){
+    montrer(0);
+}
+if(k == 1){
+    montrer(1);
+}
+if(k > 1){
+    montrer(fib);
+}
